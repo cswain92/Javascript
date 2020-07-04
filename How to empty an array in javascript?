@@ -1,0 +1,10 @@
+/*
+How to empty an array in javascript?
+*/
+<script>
+    var array = ['a', 'b', 'c', 'd','e'];
+    var new__array = array;
+    array.splice(0,array.length);
+
+    console.log(new__array);
+</script>
