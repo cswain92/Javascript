@@ -1,0 +1,14 @@
+array__=[1,2,3,4,5,6];
+    var i = 1;
+        array__.map((x) => {
+            var Y= Math.pow(x,i++);
+            console.log(Y);
+        });
+        
+        output :
+       1
+       4
+       27
+       256
+       3125
+       46656
