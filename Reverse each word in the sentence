@@ -1,0 +1,16 @@
+<script>
+!------Given Sentence----!
+    var sentence__ ="Welcome to this Javascript Guide!";
+   !---Sentence Reversed----! 
+    var reverse_sentence = sentence__.split('').reverse().join('');
+    !----Each Word Reversed---!
+    var reverse_by_words = reverse_sentence.split(' ').reverse().join(' ');
+    
+    console.log(sentence__);
+    
+    console.log(reverse_sentence);
+    !ediuG tpircsavaJ siht ot emocleW
+    
+    console.log(reverse_by_words);
+    emocleW ot siht tpircsavaJ !ediuG
+</script>
